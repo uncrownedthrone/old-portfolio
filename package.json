@@ -5,7 +5,8 @@
     "start": "browser-sync start --server public --files public",
     "deploy": "netlify deploy --prod --dir=public",
     "setup-deploy": "app-app --deploy && yarn deploy",
-    "postdeploy": "echo 'Your site was deployed to https://portfolio-v-2-justin.netlify.com'"
+    "postdeploy": "echo 'Your site was deployed to https://portfolio-v-2-justin.netlify.com'",
+    "build": "webpack"
   },
   "prettier": {
     "trailingComma": "es5",
